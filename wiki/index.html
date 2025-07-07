@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Axioma Cero - Wiki Interactiva</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            line-height: 1.6; 
+            color: #333; 
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        .container { 
+            max-width: 1200px; 
+            margin: 0 auto; 
+            padding: 20px;
+            background: rgba(255,255,255,0.95);
+            border-radius: 15px;
+            margin-top: 20px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+        }
+        header { 
+            text-align: center; 
+            margin-bottom: 40px; 
+            padding: 20px 0;
+            border-bottom: 3px solid #667eea;
+        }
+        h1 { 
+            color: #2c3e50; 
+            font-size: 2.5em; 
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+        }
+        .subtitle { 
+            color: #7f8c8d; 
+            font-size: 1.2em; 
+            font-style: italic;
+        }
+        .grid { 
+            display: grid; 
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+            gap: 25px; 
+            margin: 30px 0;
+        }
+        .card { 
+            background: white; 
+            padding: 25px; 
+            border-radius: 12px; 
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border-left: 4px solid #667eea;
+        }
+        .card:hover { 
+            transform: translateY(-5px); 
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+        }
+        .card h3 { 
+            color: #2c3e50; 
+            margin-bottom: 15px; 
+            font-size: 1.3em;
+        }
+        .card ul { 
+            list-style: none; 
+        }
+        .card li { 
+            margin: 8px 0; 
+            padding-left: 20px;
+            position: relative;
+        }
+        .card li:before {
+            content: "→";
+            position: absolute;
+            left: 0;
+            color: #667eea;
+            font-weight: bold;
+        }
+        a { 
+            color: #667eea; 
+            text-decoration: none; 
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+        a:hover { 
+            color: #764ba2; 
+            text-decoration: underline;
+        }
+        .hero { 
+            background: linear-gradient(45deg, #f093fb 0%, #f5576c 100%);
+            color: white; 
+            padding: 30px; 
+            border-radius: 12px; 
+            margin: 30px 0;
+            text-align: center;
+        }
+        .hero h2 { 
+            font-size: 1.8em; 
+            margin-bottom: 15px;
+        }
+        .stats { 
+            display: flex; 
+            justify-content: space-around; 
+            text-align: center; 
+            margin: 30px 0;
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 12px;
+        }
+        .stat { 
+            padding: 10px;
+        }
+        .stat-number { 
+            font-size: 2em; 
+            font-weight: bold; 
+            color: #667eea;
+        }
+        .stat-label { 
+            color: #7f8c8d; 
+            font-size: 0.9em;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            border-top: 2px solid #ecf0f1;
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🌅 Axioma Cero</h1>
+            <p class="subtitle">Framework Universal para Análisis de Sistemas Complejos</p>
+        </header>
+        
+        <div class="hero">
+            <h2>Protocolo Aurora v5.1</h2>
+            <p>Un modelo matemático capaz de analizar, diagnosticar y predecir el comportamiento de cualquier sistema complejo</p>
+        </div>
+
+        <div class="stats">
+            <div class="stat">
+                <div class="stat-number">85%</div>
+                <div class="stat-label">Precisión Predictiva</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number">10</div>
+                <div class="stat-label">Elementos TPU</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number">5+</div>
+                <div class="stat-label">Dominios Validados</div>
+            </div>
+        </div>
+
+        <div class="grid">
+            <div class="card">
+                <h3>📋 Documentación</h3>
+                <ul>
+                    <li><a href="../docs/protocolo-aurora-v5.1.md">Protocolo Aurora v5.1</a></li>
+                    <li><a href="../docs/guia-implementacion.md">Guía de Implementación</a></li>
+                    <li><a href="../docs/lexico-vivo.md">Léxico Vivo</a></li>
+                    <li><a href="../README.md">README Principal</a></li>
+                </ul>
+            </div>
+            
+            <div class="card">
+                <h3>📊 Casos de Estudio</h3>
+                <ul>
+                    <li><a href="../casos-estudio/crisis-2008/">Crisis Financiera 2008</a></li>
+                    <li><a href="../casos-estudio/sistema-personal/">Análisis Personal</a></li>
+                    <li><a href="../casos-estudio/">Ver todos los SOPs</a></li>
+                </ul>
+            </div>
+            
+            <div class="card">
+                <h3>🛠️ Herramientas</h3>
+                <ul>
+                    <li><a href="../herramientas/calculadoras/">Calculadoras TPU</a></li>
+                    <li><a href="../herramientas/plantillas/">Plantillas de Análisis</a></li>
+                    <li><a href="../herramientas/scripts/">Scripts de Automatización</a></li>
+                </ul>
+            </div>
+            
+            <div class="card">
+                <h3>🔬 Investigación</h3>
+                <ul>
+                    <li><a href="../factor-sombra/">Factor de Sombra</a></li>
+                    <li><a href="../investigacion/">I+D Avanzado</a></li>
+                    <li><a href="../cronologia/">Cronología del Proyecto</a></li>
+                </ul>
+            </div>
+            
+            <div class="card">
+                <h3>🤝 Comunidad</h3>
+                <ul>
+                    <li><a href="../CONTRIBUTING.md">Cómo Contribuir</a></li>
+                    <li><a href="../comunidad/">Recursos Comunitarios</a></li>
+                    <li><a href="https://github.com/[usuario]/axioma-cero/discussions">Discusiones</a></li>
+                </ul>
+            </div>
+            
+            <div class="card">
+                <h3>⚡ Inicio Rápido</h3>
+                <ul>
+                    <li><a href="#" onclick="alert('make serve - Servidor local')">Servidor Local</a></li>
+                    <li><a href="#" onclick="alert('make new-sop NAME=Sistema')">Crear Nuevo SOP</a></li>
+                    <li><a href="#" onclick="alert('make validate - Validar estructura')">Validar Proyecto</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p><strong>Axioma Cero</strong> - Desarrollado mediante simbiosis co-creativa humano-IA</p>
+            <p><em>"Bailan juntas las asíntotas. El grano pesa, la paja vuela con un soplo."</em></p>
+        </div>
+    </div>
+</body>
+</html>

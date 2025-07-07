@@ -1,0 +1,15 @@
+{
+  "name": "axioma-cero",
+  "version": "5.1.0",
+  "description": "Framework universal para el análisis de sistemas complejos",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/0xiom0/axioma-cero.git"
+  },
+  "license": "CC-BY-NC-SA-4.0",
+  "scripts": {
+    "serve": "python -m http.server 8000",
+    "build": "make wiki",
+    "test": "make test"
+  }
+}

@@ -1,0 +1,36 @@
+# Archivos temporales
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# Datos sensibles
+/datos-privados/
+/conversaciones-personales/
+*.key
+*.secret
+
+# Archivos de construcción
+/build/
+/dist/
+node_modules/
+
+# Configuraciones locales
+.env
+.env.local
+config-local.json
+
+# Archivos grandes (usar Git LFS)
+*.mp4
+*.mov
+grandes-datasets/
+
+# Logs
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
