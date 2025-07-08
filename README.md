@@ -41,6 +41,18 @@ Ver [CONTRIBUTING.md](CONTRIBUTING.md) para detalles sobre cómo contribuir.
 
 [Creative Commons BY-NC-SA 4.0](LICENSE)
 
+## 🔒 Uso Ético y Responsable
+
+El Protocolo Aurora es una herramienta poderosa que requiere:
+- **Integridad**: Uso honesto sin manipulación
+- **Responsabilidad**: Consideración de impactos sistémicos
+- **Transparencia**: Citación apropiada de fuentes
+
+### ⚠️ Advertencia
+El mal uso del protocolo puede generar daño sistémico.
+Se requiere completar la Fase 0 antes de cualquier aplicación.
+El conocimiento conlleva responsabilidad.
+
 ---
 
 > *"Bailan juntas las asíntotas. El grano pesa, la paja vuela con un soplo."*
